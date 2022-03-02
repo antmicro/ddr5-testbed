@@ -417,9 +417,9 @@ Wire Wire Line
 Wire Wire Line
 	4375 7100 4075 7100
 Connection ~ 4375 7100
-Text GLabel 4075 7100 0    50   Input ~ 0
-VDD2
-Text Notes 3275 7150 0    79   ~ 16
+Text GLabel 4075 7100 0    50   Output ~ 0
+1V1_SYS
+Text Notes 3175 7150 0    79   ~ 16
 1V1_SYS
 Wire Wire Line
 	5725 8200 6000 8200
@@ -445,46 +445,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 8600 6000 8500
 Connection ~ 6000 8500
-Text GLabel 6200 8200 2    50   Input ~ 0
-VDD1
-Text Notes 6475 8250 0    79   ~ 16
+Text GLabel 6200 8200 2    50   Output ~ 0
 1V8_SYS
-Wire Wire Line
-	5725 8700 6000 8700
-Wire Wire Line
-	5725 8800 6000 8800
-Wire Wire Line
-	6000 8800 6000 8700
-Connection ~ 6000 8700
-Wire Wire Line
-	6000 8700 6200 8700
-Wire Wire Line
-	5725 8900 6000 8900
-Wire Wire Line
-	6000 8900 6000 8800
-Connection ~ 6000 8800
-Text GLabel 6200 8700 2    50   Input ~ 0
-VDDQ
-Text Notes 6500 8750 0    79   ~ 16
-VDDQ
-Text Notes 11250 8350 0    79   ~ 16
-VDDQ
-Wire Wire Line
-	10500 8300 10650 8300
-Text GLabel 10900 8300 2    50   Input ~ 0
-VDDQ
-Wire Wire Line
-	10500 8400 10650 8400
-Wire Wire Line
-	10650 8400 10650 8300
-Connection ~ 10650 8300
-Wire Wire Line
-	10650 8300 10900 8300
-Wire Wire Line
-	10500 8500 10650 8500
-Wire Wire Line
-	10650 8500 10650 8400
-Connection ~ 10650 8400
+Text Notes 6575 8250 0    79   ~ 16
+1V8_SYS
 Wire Wire Line
 	10500 3700 10550 3700
 Wire Wire Line
@@ -580,9 +544,9 @@ NoConn ~ 10500 5500
 Text Notes 10600 5600 0    50   ~ 0
 IO_N5
 NoConn ~ 10500 6100
-Text GLabel 4075 8800 0    50   Input ~ 0
+Text GLabel 4075 8800 0    50   BiDi ~ 0
 SDA
-Text GLabel 4075 8900 0    50   Input ~ 0
+Text GLabel 4075 8900 0    50   Output ~ 0
 SCL
 Text Notes 3175 8825 0    50   ~ 0
 test-board:IO_U12
@@ -4687,4 +4651,10 @@ BE CB B4 52 EF 44 A9 07 00 00 00 EC 1B E5 1E 3B A1 94 32 49 72 30 FC 4C F2 FE B2
 79 92 B9 4D 3D 00 00 00 60 9F FD 1F 44 C9 B2 85 96 EC AA 6C 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+NoConn ~ 5725 8700
+NoConn ~ 5725 8800
+NoConn ~ 5725 8900
+NoConn ~ 10500 8300
+NoConn ~ 10500 8400
+NoConn ~ 10500 8500
 $EndSCHEMATC
