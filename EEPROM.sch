@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev "1.1.0"
+Title "DDR5 testbed"
+Date "2022-03-02"
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
