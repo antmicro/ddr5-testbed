@@ -20,7 +20,7 @@ F0 "SODIMM" 50
 F1 "sodim.sch" 50
 $EndSheet
 Text Notes 725  850  0    98   ~ 20
-LPDDR4 testbed
+DDR5 testbed
 $Sheet
 S 8625 5250 1650 1125
 U 5FF943AC
