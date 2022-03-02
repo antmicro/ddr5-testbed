@@ -1,4 +1,4 @@
-(module FVBGA-82_11x13_9.0x11.0mm (layer F.Cu) (tedit 621F5B92)
+(module FVBGA-82_11x13_9.0x11.0mm (layer F.Cu) (tedit 621F5BC2)
   (attr smd)
   (fp_text reference REF** (at 0 -6.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
