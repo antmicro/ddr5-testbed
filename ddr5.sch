@@ -222,14 +222,6 @@ Connection ~ 8600 4425
 Wire Wire Line
 	8600 4425 8900 4425
 Wire Wire Line
-	8225 7100 8525 7100
-Text GLabel 8525 7100 2    50   Output ~ 0
-TDQS_P
-Wire Wire Line
-	8225 7200 8525 7200
-Text GLabel 8525 7200 2    50   Output ~ 0
-TDQS_N
-Wire Wire Line
 	6725 7100 6425 7100
 Text GLabel 6425 7100 0    50   BiDi ~ 0
 DQS_P
@@ -283,13 +275,9 @@ Text GLabel 6425 6900 0    50   BiDi ~ 0
 CA13
 Wire Wire Line
 	5900 5400 6725 5400
-Wire Wire Line
-	8225 7400 8525 7400
-Text GLabel 8525 7400 2    50   Output ~ 0
+Text GLabel 9700 7400 2    50   Output ~ 0
 LBDQ
-Wire Wire Line
-	8225 7500 8525 7500
-Text GLabel 8525 7500 2    50   Output ~ 0
+Text GLabel 9700 7500 2    50   Output ~ 0
 LBDQS
 Wire Wire Line
 	7325 4850 7325 4625
@@ -5065,4 +5053,48 @@ F 5 "Wurth Electronic" H 11450 3800 60  0001 L CNN "Manufacturer"
 	1    11250 2700
 	1    0    0    -1  
 $EndComp
+$Comp
+L ddr5-testbed:R_0R_0402 R19
+U 1 1 628003FC
+P 9300 7500
+F 0 "R19" H 9075 7550 60  0000 C CNN
+F 1 "R_0R_0402" H 9300 7350 60  0001 C CNN
+F 2 "ddr5-testbed-footprints:0402-res" H 9500 7700 60  0001 L CNN
+F 3 "" H 9300 7500 50  0001 C CNN
+F 4 "PANASONIC" H 9500 7900 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9500 7800 60  0001 L CNN "MPN"
+F 6 "0R" H 9500 7550 50  0000 C CNN "Val"
+	1    9300 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ddr5-testbed:R_0R_0402 R18
+U 1 1 62800405
+P 9300 7400
+F 0 "R18" H 9075 7450 60  0000 C CNN
+F 1 "R_0R_0402" H 9300 7250 60  0001 C CNN
+F 2 "ddr5-testbed-footprints:0402-res" H 9500 7600 60  0001 L CNN
+F 3 "" H 9300 7400 50  0001 C CNN
+F 4 "PANASONIC" H 9500 7800 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 9500 7700 60  0001 L CNN "MPN"
+F 6 "0R" H 9500 7450 50  0000 C CNN "Val"
+	1    9300 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 7400 9150 7400
+Wire Wire Line
+	8225 7500 9150 7500
+Wire Wire Line
+	9700 7400 9450 7400
+Wire Wire Line
+	9450 7500 9700 7500
+Wire Wire Line
+	8225 7200 8525 7200
+Wire Wire Line
+	8225 7100 8525 7100
+Text GLabel 8525 7200 2    50   Output ~ 0
+TDQS_N
+Text GLabel 8525 7100 2    50   Output ~ 0
+TDQS_P
 $EndSCHEMATC
