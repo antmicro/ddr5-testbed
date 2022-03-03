@@ -503,8 +503,6 @@ Wire Wire Line
 	10500 5200 10550 5200
 Connection ~ 10550 5200
 Wire Wire Line
-	10550 5200 10550 6000
-Wire Wire Line
 	10500 5600 11175 5600
 Wire Wire Line
 	10500 5800 11175 5800
@@ -556,83 +554,38 @@ Wire Wire Line
 	4075 8800 4725 8800
 Wire Wire Line
 	4075 8900 4725 8900
-Text GLabel 8875 5400 0    50   BiDi ~ 0
+Text GLabel 11175 3800 2    50   BiDi ~ 0
 DQ4
-Text GLabel 8875 5500 0    50   BiDi ~ 0
+Text GLabel 11175 4800 2    50   BiDi ~ 0
 DQ5
-Text GLabel 8875 5600 0    50   BiDi ~ 0
+Text GLabel 11175 3900 2    50   BiDi ~ 0
 DQ6
-Text GLabel 8875 5700 0    50   BiDi ~ 0
+Text GLabel 11175 4700 2    50   BiDi ~ 0
 DQ7
-Text GLabel 8875 6500 0    50   BiDi ~ 0
+Text GLabel 11175 4500 2    50   BiDi ~ 0
 DQ3
-Text GLabel 8875 6400 0    50   BiDi ~ 0
+Text GLabel 11175 4100 2    50   BiDi ~ 0
 DQ2
-Text GLabel 8875 6300 0    50   BiDi ~ 0
+Text GLabel 11175 4600 2    50   BiDi ~ 0
 DQ1
-Text GLabel 8875 6200 0    50   BiDi ~ 0
+Text GLabel 11175 4000 2    50   BiDi ~ 0
 DQ0
-Text GLabel 11175 4300 2    50   Output ~ 0
-CLK_P
-Text GLabel 11175 4200 2    50   Output ~ 0
-CLK_N
-Text GLabel 11175 6200 2    50   BiDi ~ 0
-CA0
-Text GLabel 11175 5700 2    50   Output ~ 0
-CS_N
 Text GLabel 11175 5300 2    50   Output ~ 0
 RESET_N
-Text GLabel 11175 5600 2    50   Output ~ 0
+Text GLabel 8775 6200 0    50   Output ~ 0
 OTD_CA_A
-Text GLabel 8875 4800 0    50   Output ~ 0
-TDQS_P
-Text GLabel 8875 4700 0    50   Output ~ 0
-TDQS_N
-Text GLabel 8875 6100 0    50   BiDi ~ 0
-DQS_P
-Text GLabel 8875 6000 0    50   BiDi ~ 0
-DQS_N
-Text GLabel 11175 6300 2    50   BiDi ~ 0
-CA1
-Text GLabel 11175 4100 2    50   BiDi ~ 0
-CA2
-Text GLabel 11175 4000 2    50   BiDi ~ 0
-CA3
-Text GLabel 11175 3900 2    50   BiDi ~ 0
-CA4
-Text GLabel 11175 3800 2    50   BiDi ~ 0
-CA5
-Text GLabel 8875 4500 0    50   BiDi ~ 0
-CA6
-Text GLabel 8875 4400 0    50   BiDi ~ 0
-CA7
-Text GLabel 8875 4300 0    50   BiDi ~ 0
-CA8
-Text GLabel 8875 4200 0    50   BiDi ~ 0
-CA9
-Text GLabel 8875 5300 0    50   BiDi ~ 0
-CA10
-Text GLabel 8875 5200 0    50   BiDi ~ 0
-CA11
-Text GLabel 8875 5100 0    50   BiDi ~ 0
-CA12
-Text GLabel 8875 5000 0    50   BiDi ~ 0
-CA13
-Text GLabel 11175 4700 2    50   Output ~ 0
+Text GLabel 11175 6200 2    50   Output ~ 0
 LBDQ
-Text GLabel 11175 4800 2    50   Output ~ 0
+Text GLabel 11175 6300 2    50   Output ~ 0
 LBDQS
-Text GLabel 11175 5800 2    50   Output ~ 0
+Text GLabel 8775 6400 0    50   Output ~ 0
 TEN
-Text GLabel 8875 4600 0    50   Output ~ 0
-MIR
-Text GLabel 8875 5900 0    50   Output ~ 0
+Text GLabel 8775 6100 0    50   Output ~ 0
 CAI
 Wire Wire Line
 	10500 4600 11175 4600
-Text GLabel 11175 4600 2    50   BiDi ~ 0
+Text GLabel 8775 6500 0    50   BiDi ~ 0
 ALERT_N
-NoConn ~ 10500 4500
 NoConn ~ 10500 4900
 NoConn ~ 10500 5000
 NoConn ~ 10500 5100
@@ -709,7 +662,6 @@ NoConn ~ 10500 6900
 NoConn ~ 10500 7000
 NoConn ~ 10500 7100
 NoConn ~ 10500 6400
-NoConn ~ 10500 5900
 NoConn ~ 9500 3700
 NoConn ~ 9500 3800
 NoConn ~ 9500 3900
@@ -4657,4 +4609,54 @@ NoConn ~ 5725 8900
 NoConn ~ 10500 8300
 NoConn ~ 10500 8400
 NoConn ~ 10500 8500
+Text GLabel 8775 6300 0    50   Output ~ 0
+CS_N
+Text GLabel 8875 5200 0    50   BiDi ~ 0
+CA13
+Text GLabel 8875 4300 0    50   BiDi ~ 0
+CA12
+Text GLabel 8875 5300 0    50   BiDi ~ 0
+CA11
+Text GLabel 8875 4200 0    50   BiDi ~ 0
+CA10
+Text GLabel 8875 5700 0    50   BiDi ~ 0
+CA1
+Text GLabel 8875 5000 0    50   BiDi ~ 0
+CA0
+Text GLabel 8875 5400 0    50   BiDi ~ 0
+CA9
+Text GLabel 8875 4400 0    50   BiDi ~ 0
+CA8
+Text GLabel 8875 5600 0    50   BiDi ~ 0
+CA7
+Text GLabel 8875 4500 0    50   BiDi ~ 0
+CA6
+Text GLabel 8775 6000 0    50   Output ~ 0
+MIR
+Text GLabel 8875 5900 0    50   BiDi ~ 0
+CA5
+Text GLabel 8875 5100 0    50   BiDi ~ 0
+CA4
+Text GLabel 8875 5500 0    50   BiDi ~ 0
+CA3
+Text GLabel 8875 4600 0    50   BiDi ~ 0
+CA2
+Text GLabel 11175 4200 2    50   BiDi ~ 0
+DQS_N
+Text GLabel 11175 4300 2    50   BiDi ~ 0
+DQS_P
+Text GLabel 8875 4700 0    50   Output ~ 0
+CLK_N
+Text GLabel 8875 4800 0    50   Output ~ 0
+CLK_P
+Text GLabel 11175 5900 2    50   Output ~ 0
+TDQS_N
+Text GLabel 11175 5800 2    50   Output ~ 0
+TDQS_P
+Wire Wire Line
+	10550 5200 10550 6000
+Wire Wire Line
+	10500 5900 11175 5900
+Wire Wire Line
+	10500 4500 11175 4500
 $EndSCHEMATC
