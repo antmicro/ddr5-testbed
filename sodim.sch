@@ -469,8 +469,6 @@ $EndComp
 Wire Wire Line
 	10500 4200 11175 4200
 Wire Wire Line
-	10500 4300 11175 4300
-Wire Wire Line
 	10500 4400 10550 4400
 Connection ~ 10550 4400
 Wire Wire Line
@@ -564,7 +562,7 @@ Text GLabel 11175 6300 2    50   BiDi ~ 0
 DQ0
 Text GLabel 8875 6200 0    50   Output ~ 0
 RESET_N
-Text GLabel 11175 4700 2    50   Output ~ 0
+Text GLabel 11175 4100 2    50   Output ~ 0
 OTD_CA_A
 Text GLabel 8875 6500 0    50   Output ~ 0
 LBDQ
@@ -572,16 +570,10 @@ Text GLabel 8875 6400 0    50   Output ~ 0
 LBDQS
 Text GLabel 8875 6300 0    50   Output ~ 0
 TEN
-Text GLabel 11175 4200 2    50   Output ~ 0
+Text GLabel 11175 3800 2    50   Output ~ 0
 CAI
-Wire Wire Line
-	10500 4600 11175 4600
-Text GLabel 11175 4300 2    50   BiDi ~ 0
+Text GLabel 11175 3900 2    50   BiDi ~ 0
 ALERT_N
-Wire Wire Line
-	10500 4700 11175 4700
-Wire Wire Line
-	10500 4800 11175 4800
 NoConn ~ 10500 2600
 NoConn ~ 10500 2700
 NoConn ~ 10500 2800
@@ -4598,7 +4590,7 @@ NoConn ~ 5725 8900
 NoConn ~ 10500 8300
 NoConn ~ 10500 8400
 NoConn ~ 10500 8500
-Text GLabel 11175 4800 2    50   Output ~ 0
+Text GLabel 11175 4200 2    50   Output ~ 0
 CS_N
 Text GLabel 8875 5300 0    50   BiDi ~ 0
 CA13
@@ -4620,7 +4612,7 @@ Text GLabel 8875 5500 0    50   BiDi ~ 0
 CA7
 Text GLabel 8875 4500 0    50   BiDi ~ 0
 CA6
-Text GLabel 11175 4600 2    50   Output ~ 0
+Text GLabel 11175 4000 2    50   Output ~ 0
 MIR
 Text GLabel 8875 5700 0    50   BiDi ~ 0
 CA5
@@ -4652,9 +4644,17 @@ Wire Wire Line
 	10500 5000 11175 5000
 Wire Wire Line
 	10500 4900 11175 4900
-NoConn ~ 10500 3800
-NoConn ~ 10500 3900
-NoConn ~ 10500 4000
-NoConn ~ 10500 4100
 NoConn ~ 10500 4500
+Wire Wire Line
+	10500 3800 11175 3800
+Wire Wire Line
+	10500 3900 11175 3900
+Wire Wire Line
+	10500 4000 11175 4000
+Wire Wire Line
+	10500 4100 11175 4100
+NoConn ~ 10500 4300
+NoConn ~ 10500 4600
+NoConn ~ 10500 4700
+NoConn ~ 10500 4800
 $EndSCHEMATC
