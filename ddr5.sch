@@ -5097,4 +5097,22 @@ Text GLabel 8525 7200 2    50   Output ~ 0
 TDQS_N
 Text GLabel 8525 7100 2    50   Output ~ 0
 TDQS_P
+Text Label 8350 5400 0    50   ~ 0
+R_ALERT_N
+Text Label 8350 5500 0    50   ~ 0
+R_CAI
+Text Label 8350 5600 0    50   ~ 0
+R_MIR
+Text Label 8350 5700 0    50   ~ 0
+R_TEN
+Text Label 8325 5100 0    50   ~ 0
+R_RESET_N
+Text Label 8325 5200 0    50   ~ 0
+R_ODT_CA_A
+Text Label 6450 7500 0    50   ~ 0
+ZQ
+Text Label 8400 7400 0    50   ~ 0
+R_LBDQ
+Text Label 8400 7500 0    50   ~ 0
+R_LBDQS
 $EndSCHEMATC
