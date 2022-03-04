@@ -28,19 +28,6 @@ F 3 "" H 6225 5900 50  0001 L BNN
 	1    5225 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L ddr5-testbed:ddr4-sodimm-edge-connector J1
-U 2 1 600B3548
-P 10000 5800
-AR Path="/5FDC4A05/600B3548" Ref="J1"  Part="2" 
-AR Path="/5FF943AC/600B3548" Ref="J?"  Part="2" 
-F 0 "J1" H 10000 9365 50  0000 C CNN
-F 1 "ddr4-sodimm-edge-connector" H 10000 9274 50  0000 C CNN
-F 2 "ddr5-testbed-footprints:SODIMM_DDR4_EDGE" H 9700 2400 50  0001 L BNN
-F 3 "" H 11000 5900 50  0001 L BNN
-	2    10000 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 4200 8875 4200
 Wire Wire Line
@@ -474,12 +461,6 @@ Connection ~ 10550 4400
 Wire Wire Line
 	10550 4400 10550 5200
 Wire Wire Line
-	10500 5700 11175 5700
-Wire Wire Line
-	10500 6200 11175 6200
-Wire Wire Line
-	10500 6300 11175 6300
-Wire Wire Line
 	10500 6500 10550 6500
 Connection ~ 10550 6500
 Wire Wire Line
@@ -492,10 +473,6 @@ Wire Wire Line
 Wire Wire Line
 	10500 5200 10550 5200
 Connection ~ 10550 5200
-Wire Wire Line
-	10500 5600 11175 5600
-Wire Wire Line
-	10500 5800 11175 5800
 $Comp
 L ddr5-testbed:GND #PWR0102
 U 1 1 6015ECEA
@@ -529,8 +506,6 @@ Wire Wire Line
 	10500 5300 11175 5300
 NoConn ~ 10500 5400
 NoConn ~ 10500 5500
-Text Notes 10600 5600 0    50   ~ 0
-IO_N5
 NoConn ~ 10500 6100
 Text GLabel 4075 8800 0    50   BiDi ~ 0
 SDA
@@ -544,25 +519,25 @@ Wire Wire Line
 	4075 8800 4725 8800
 Wire Wire Line
 	4075 8900 4725 8900
-Text GLabel 11175 5600 2    50   BiDi ~ 0
-DQ4
-Text GLabel 11175 4900 2    50   BiDi ~ 0
-DQ5
-Text GLabel 11175 5700 2    50   BiDi ~ 0
-DQ6
-Text GLabel 11175 5000 2    50   BiDi ~ 0
-DQ7
 Text GLabel 11175 5300 2    50   BiDi ~ 0
-DQ3
-Text GLabel 11175 6200 2    50   BiDi ~ 0
-DQ2
+DQ4
+Text GLabel 11175 5000 2    50   BiDi ~ 0
+DQ5
+Text GLabel 11175 4900 2    50   BiDi ~ 0
+DQ6
 Text GLabel 11175 5100 2    50   BiDi ~ 0
+DQ7
+Text GLabel 11175 5700 2    50   BiDi ~ 0
+DQ3
+Text GLabel 11175 5800 2    50   BiDi ~ 0
+DQ2
+Text GLabel 11175 5600 2    50   BiDi ~ 0
 DQ1
-Text GLabel 11175 6300 2    50   BiDi ~ 0
+Text GLabel 11175 5900 2    50   BiDi ~ 0
 DQ0
 Text GLabel 8875 6200 0    50   Output ~ 0
 RESET_N
-Text GLabel 11175 4100 2    50   Output ~ 0
+Text GLabel 11175 6300 2    50   Output ~ 0
 OTD_CA_A
 Text GLabel 8875 6500 0    50   Output ~ 0
 LBDQ
@@ -4590,7 +4565,7 @@ NoConn ~ 5725 8900
 NoConn ~ 10500 8300
 NoConn ~ 10500 8400
 NoConn ~ 10500 8500
-Text GLabel 11175 4200 2    50   Output ~ 0
+Text GLabel 11175 4100 2    50   Output ~ 0
 CS_N
 Text GLabel 8875 5300 0    50   BiDi ~ 0
 CA13
@@ -4622,29 +4597,26 @@ Text GLabel 8875 5600 0    50   BiDi ~ 0
 CA3
 Text GLabel 8875 4600 0    50   BiDi ~ 0
 CA2
-Text GLabel 11175 5800 2    50   BiDi ~ 0
+Text GLabel 8875 6000 0    50   BiDi ~ 0
 DQS_N
-Text GLabel 11175 5900 2    50   BiDi ~ 0
+Text GLabel 8875 6100 0    50   BiDi ~ 0
 DQS_P
 Text GLabel 8875 4700 0    50   Output ~ 0
 CLK_N
 Text GLabel 8875 4800 0    50   Output ~ 0
 CLK_P
-Text GLabel 8875 6000 0    50   Output ~ 0
+Text GLabel 11175 4200 2    50   Output ~ 0
 TDQS_N
-Text GLabel 8875 6100 0    50   Output ~ 0
+Text GLabel 11175 4300 2    50   Output ~ 0
 TDQS_P
 Wire Wire Line
 	10550 5200 10550 6000
-Wire Wire Line
-	10500 5900 11175 5900
 Wire Wire Line
 	10500 5100 11175 5100
 Wire Wire Line
 	10500 5000 11175 5000
 Wire Wire Line
 	10500 4900 11175 4900
-NoConn ~ 10500 4500
 Wire Wire Line
 	10500 3800 11175 3800
 Wire Wire Line
@@ -4653,8 +4625,63 @@ Wire Wire Line
 	10500 4000 11175 4000
 Wire Wire Line
 	10500 4100 11175 4100
-NoConn ~ 10500 4300
-NoConn ~ 10500 4600
-NoConn ~ 10500 4700
-NoConn ~ 10500 4800
+Wire Wire Line
+	10500 4700 11175 4700
+Wire Wire Line
+	10500 4800 11175 4800
+Wire Wire Line
+	10500 4500 11175 4500
+Wire Wire Line
+	10500 4600 11175 4600
+$Comp
+L ddr5-testbed:ddr4-sodimm-edge-connector J1
+U 2 1 600B3548
+P 10000 5800
+AR Path="/5FDC4A05/600B3548" Ref="J1"  Part="2" 
+AR Path="/5FF943AC/600B3548" Ref="J?"  Part="2" 
+F 0 "J1" H 10000 9365 50  0000 C CNN
+F 1 "ddr4-sodimm-edge-connector" H 10000 9274 50  0000 C CNN
+F 2 "ddr5-testbed-footprints:SODIMM_DDR4_EDGE" H 9700 2400 50  0001 L BNN
+F 3 "" H 11000 5900 50  0001 L BNN
+	2    10000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 4300 11175 4300
+Wire Wire Line
+	10500 5900 11175 5900
+Wire Wire Line
+	10500 5800 11175 5800
+Wire Wire Line
+	10500 5700 11175 5700
+Wire Wire Line
+	10500 5600 11175 5600
+Wire Wire Line
+	10500 6300 11175 6300
+Text Label 8275 3225 0    50   ~ 0
+pci_0
+Text Label 8275 3325 0    50   ~ 0
+pci_1
+Text Label 8275 3425 0    50   ~ 0
+pci_2
+Text Label 8275 3525 0    50   ~ 0
+pci_3
+Text Label 8275 3625 0    50   ~ 0
+pci_4
+Text Label 8275 3725 0    50   ~ 0
+pci_5
+Text Label 8275 3825 0    50   ~ 0
+pci_6
+Text Label 8275 3925 0    50   ~ 0
+pci_7
+Text Label 8275 4025 0    50   ~ 0
+pci_8
+Text Label 8275 4125 0    50   ~ 0
+pci_9
+Text Label 8275 4225 0    50   ~ 0
+pci_10
+Text Label 8275 4325 0    50   ~ 0
+pci_11
+Text Label 8275 4425 0    50   ~ 0
+pci_12
 $EndSCHEMATC
