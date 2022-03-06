@@ -486,22 +486,6 @@ F 3 "" H 9425 9125 50  0001 C CNN
 	1    9425 9125
 	1    0    0    -1  
 $EndComp
-Text Notes 10600 5300 0    50   ~ 0
-IO_P4
-Text Notes 10600 5100 0    50   ~ 0
-IO_R4
-Text Notes 10600 5000 0    50   ~ 0
-IO_T4
-Text Notes 10600 4900 0    50   ~ 0
-IO_U5
-Text Notes 10600 4800 0    50   ~ 0
-IO_U3
-Text Notes 10600 4700 0    50   ~ 0
-IO_V4
-Text Notes 10600 4600 0    50   ~ 0
-IO_V3
-Text Notes 10600 4500 0    50   ~ 0
-IO_W4
 Wire Wire Line
 	10500 5300 11175 5300
 NoConn ~ 10500 5400
@@ -4625,14 +4609,6 @@ Wire Wire Line
 	10500 4000 11175 4000
 Wire Wire Line
 	10500 4100 11175 4100
-Wire Wire Line
-	10500 4700 11175 4700
-Wire Wire Line
-	10500 4800 11175 4800
-Wire Wire Line
-	10500 4500 11175 4500
-Wire Wire Line
-	10500 4600 11175 4600
 $Comp
 L ddr5-testbed:ddr4-sodimm-edge-connector J1
 U 2 1 600B3548
@@ -4658,30 +4634,8 @@ Wire Wire Line
 	10500 5600 11175 5600
 Wire Wire Line
 	10500 6300 11175 6300
-Text Label 8275 3225 0    50   ~ 0
-pci_0
-Text Label 8275 3325 0    50   ~ 0
-pci_1
-Text Label 8275 3425 0    50   ~ 0
-pci_2
-Text Label 8275 3525 0    50   ~ 0
-pci_3
-Text Label 8275 3625 0    50   ~ 0
-pci_4
-Text Label 8275 3725 0    50   ~ 0
-pci_5
-Text Label 8275 3825 0    50   ~ 0
-pci_6
-Text Label 8275 3925 0    50   ~ 0
-pci_7
-Text Label 8275 4025 0    50   ~ 0
-pci_8
-Text Label 8275 4125 0    50   ~ 0
-pci_9
-Text Label 8275 4225 0    50   ~ 0
-pci_10
-Text Label 8275 4325 0    50   ~ 0
-pci_11
-Text Label 8275 4425 0    50   ~ 0
-pci_12
+NoConn ~ 10500 4500
+NoConn ~ 10500 4600
+NoConn ~ 10500 4700
+NoConn ~ 10500 4800
 $EndSCHEMATC
