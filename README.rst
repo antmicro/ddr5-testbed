@@ -1,19 +1,20 @@
-==============
-LPDDR4 testbed
-==============
+============
+DDR5 testbed
+============
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2022 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/ddr5-testbed.jpg
+.. figure:: img/ddr5-testbed-vis.png
 
 Overview
 --------
 
-This repository contains open hardware design files for an experimental test module in a form of SO-DIMM DDR4 module. The module includes a standard 200-ball WFBGA (10mm × 14.5mm ×
-0.8mm, Ø0.35 SMD) LPDDR4 RAM footprint break-routed in the SO-DOMM edge connector.
+This repository contains open hardware design files for an experimental test module in the form of SO-DIMM.
+The module includes a single DDR5 RAM IC with all signals break-routed in the SO-DIMM edge connector.
+The board has been designed to target Micron `MT60B2G8HB-48B:A <https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr5/16gb_ddr5_sdram_diereva.pdf?rev=c95e4a49184145f18e105cc41e0ee643>`_ 16Gb DRAM.
 The design files were prepared in KiCad.
-Please note that this board is not electrically compatible with off-the-shelf SO-DIMM DDR4 memory modules.
-It is compatible with `this <https://github.com/antmicro/lpddr4-test-board>`_ LPDDR4 test platform.
+Please note that this board is not electrically compatible with off-the-shelf SO-DIMM DDR memory modules.
+It is compatible with `this <https://github.com/antmicro/lpddr4-test-board>`_ experimental platform.
 
 Repository structure
 --------------------
