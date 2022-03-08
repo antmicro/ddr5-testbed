@@ -6,15 +6,15 @@ encoding utf-8
 Sheet 1 4
 Title "DDR5 testbed"
 Date "2022-03-02"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd."
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6275 5275 1650 1125
+S 7650 5550 1650 1125
 U 5FDC4A05
 F0 "SODIMM" 50
 F1 "sodim.sch" 50
@@ -22,7 +22,7 @@ $EndSheet
 Text Notes 725  850  0    98   ~ 20
 DDR5 testbed
 $Sheet
-S 8625 5250 1650 1125
+S 10000 5525 1650 1125
 U 5FF943AC
 F0 "DDR5" 50
 F1 "ddr5.sch" 50
@@ -50,7 +50,7 @@ F 3 "" H 15250 10025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4000 5300 1600 1100
+S 5375 5575 1600 1100
 U 606DB5E6
 F0 "EEPROM" 50
 F1 "EEPROM.sch" 50

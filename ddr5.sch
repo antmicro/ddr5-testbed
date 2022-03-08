@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 4
 Title "DDR5 testbed"
 Date "2022-03-02"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 1075 1025 0    98   ~ 20
-LPDDR4
+DDR5 DRAM IC
 Wire Notes Line
 	4700 11175 4675 11175
 Wire Wire Line

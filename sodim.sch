@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 4
 Title "DDR5 testbed"
 Date "2022-03-02"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -4638,4 +4638,6 @@ NoConn ~ 10500 4500
 NoConn ~ 10500 4600
 NoConn ~ 10500 4700
 NoConn ~ 10500 4800
+Text Notes 925  1700 0    98   ~ 0
+Note:\nThe pin assignment for that connector matches\nan experimental research platform available at \nhttps://github.com/antmicro/lpddr4-test-board
 $EndSCHEMATC

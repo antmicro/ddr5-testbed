@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 4
 Title "DDR5 testbed"
 Date "2022-03-02"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -4497,4 +4497,6 @@ Wire Wire Line
 	9400 2700 9800 2700
 Text Label 6975 4450 0    50   ~ 0
 VDD_LED
+Text Notes 775  925  0    98   ~ 20
+I2C peripherals
 $EndSCHEMATC
