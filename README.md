@@ -3,7 +3,7 @@ DDR5 testbed
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![](img/ddr5-testbed-vis.png)
+![](img/ddr5-testbed.png)
 
 Overview
 --------
