@@ -1,7 +1,7 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 1.2)
+    (thickness 1.258)
   )
 
   (paper "A4")
@@ -33,6 +33,27 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.018))
+      (layer "dielectric 1" (type "prepreg") (thickness 0.11) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.018))
+      (layer "dielectric 2" (type "core") (thickness 0.4) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.018))
+      (layer "dielectric 3" (type "prepreg") (thickness 0.11) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "In3.Cu" (type "copper") (thickness 0.018))
+      (layer "dielectric 4" (type "core") (thickness 0.4) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "In4.Cu" (type "copper") (thickness 0.018))
+      (layer "dielectric 5" (type "prepreg") (thickness 0.11) (material "FR4") (epsilon_r 4.3) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.018))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0.05)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)

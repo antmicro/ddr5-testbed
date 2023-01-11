@@ -48,7 +48,13 @@
           "min_clearance": 0.15
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "copper_edge_clearance|101250000|99950000|62af604d-da36-4c17-b6eb-dd5e79520da8|863fb20e-1abc-4e0c-8535-5757043ef247",
         "copper_edge_clearance|101500000|99950000|62af604d-da36-4c17-b6eb-dd5e79520da8|3ac96197-7b11-41fe-9810-b3d901e6b2ed",
