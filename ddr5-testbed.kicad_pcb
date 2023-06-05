@@ -10997,7 +10997,7 @@
   (gr_text "DDR5 Testbed\nRev. 1.1.0  01/2023" (at 108.525 78.2) (layer "F.Cu") (tstamp b1bfca0a-1438-4b29-824f-4d02ce3a65cc)
     (effects (font (size 0.85 0.85) (thickness 0.18)) (justify left))
   )
-  (gr_text "PCB SHA deadbeef" (at 109 94.02) (layer "F.SilkS") (tstamp f40a0b5f-36b8-4c11-8d71-082e205e7c59)
+  (gr_text "PCB SHA ########" (at 109 94.02) (layer "F.SilkS") (tstamp f40a0b5f-36b8-4c11-8d71-082e205e7c59)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (gr_text "DDR5 Testbed\nRev. 1.1.0  01/2023" (at 108.525 78.2) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005fff5e5b)
