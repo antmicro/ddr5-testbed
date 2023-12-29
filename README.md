@@ -12,15 +12,17 @@ The board has been designed to target Micron [MT60B2G8HB-48B:A](https://media-ww
 16Gb DRAM.
 The design files were prepared in KiCad.
 Please note that this board is not electrically compatible with off-the-shelf SO-DIMM DDR memory modules.
-It is compatible with [this](https://github.com/antmicro/lpddr4-test-board) experimental platform.
+It is compatible with [this](https://github.com/antmicro/lpddr4-test-board) experimental testing platform.
 
 ### Project structure
 
-The main project directory contains KiCad PCB project files, a LICENSE and README. 
+The main project directory contains KiCad PCB project files, a LICENSE and a README.
 The remaining files are stored in the following directories:
 
--   `lib` - contains the component libraries
--   `img` - contains graphics for this README
+* `lib` - contains the component libraries
+* `img` - contains graphics for this README
+* `doc` - contains schematics in PDF form
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com).
 
 ## License
 
