@@ -7,7 +7,7 @@
   (title_block
     (title "DDR5 testbed")
     (date "2023-01-13")
-    (rev "1.1.1")
+    (rev "1.1.1:8e7fe")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -1102,7 +1102,8 @@
         )
       )
     )
-    (symbol "ddr5-testbed:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+
+    (symbol "antmicropower:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -5305,7 +5306,7 @@
     )
   )
 
-  (symbol (lib_id "ddr5-testbed:GND") (at 148.59 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 148.59 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000600cf473)
     (property "Reference" "#PWR0101" (at 148.59 238.125 0)
@@ -5330,7 +5331,7 @@
     )
   )
 
-  (symbol (lib_id "ddr5-testbed:GND") (at 119.38 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 119.38 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000600f8128)
     (property "Reference" "#PWR0103" (at 119.38 238.125 0)
@@ -5355,7 +5356,7 @@
     )
   )
 
-  (symbol (lib_id "ddr5-testbed:GND") (at 239.395 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 239.395 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006015ecea)
     (property "Reference" "#PWR0102" (at 239.395 238.125 0)
@@ -5380,7 +5381,7 @@
     )
   )
 
-  (symbol (lib_id "ddr5-testbed:GND") (at 265.43 231.775 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 265.43 231.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006032ae1d)
     (property "Reference" "#PWR0104" (at 265.43 238.125 0)
