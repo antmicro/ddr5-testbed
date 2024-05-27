@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid c2a33bce-bdc8-4704-9f62-b8126cbf5c7c)
 
@@ -14,28 +14,28 @@
 
   (lib_symbols
     (symbol "ddr5-testbed:antmicro_logo" (in_bom yes) (on_board yes)
-      (property "Reference" "N" (id 0) (at 15.24 -5.08 0)
+      (property "Reference" "N" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "antmicro_logo" (id 1) (at 15.24 -7.62 0)
+      (property "Value" "antmicro_logo" (at 15.24 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "ddr5-testbed-footprints:antmicro-logo" (id 2) (at 15.24 -10.16 0)
+      (property "Footprint" "ddr5-testbed-footprints:antmicro-logo" (at 15.24 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (id 3) (at 15.24 -12.7 0)
+      (property "Datasheet" "" (at 15.24 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "MPN" "" (id 4) (at 0 0 0)
+      (property "MPN" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Manufacturer" "" (id 5) (at 15.24 -20.32 0)
+      (property "Manufacturer" "" (at 15.24 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Author" "Antmicro" (id 6) (at 15.24 -15.24 0)
+      (property "Author" "Antmicro" (at 15.24 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "License" "Apache-2.0" (id 7) (at 15.24 -17.78 0)
+      (property "License" "Apache-2.0" (at 15.24 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (symbol "antmicro_logo_1_1"
@@ -45,28 +45,28 @@
       )
     )
     (symbol "ddr5-testbed:oshw_logo" (in_bom yes) (on_board yes)
-      (property "Reference" "N" (id 0) (at 15.24 -5.08 0)
+      (property "Reference" "N" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "oshw_logo" (id 1) (at 15.24 -7.62 0)
+      (property "Value" "oshw_logo" (at 15.24 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "ddr5-testbed-footprints:oshw-logo" (id 2) (at 15.24 -10.16 0)
+      (property "Footprint" "ddr5-testbed-footprints:oshw-logo" (at 15.24 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (id 3) (at 15.24 -12.7 0)
+      (property "Datasheet" "" (at 15.24 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Author" "Antmicro" (id 4) (at 15.24 -15.24 0)
+      (property "Author" "Antmicro" (at 15.24 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "License" "Apache-2.0" (id 5) (at 15.24 -17.78 0)
+      (property "License" "Apache-2.0" (at 15.24 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "MPN" "" (id 6) (at 0 0 0)
+      (property "MPN" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Manufacturer" "" (id 7) (at 15.24 -20.32 0)
+      (property "Manufacturer" "" (at 15.24 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (symbol "oshw_logo_1_1"
@@ -12782,427 +12782,129 @@
   )
 
   (symbol (lib_id "ddr5-testbed:oshw_logo") (at 387.985 248.285 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005fff48fb)
-    (property "Reference" "N2" (id 0) (at 393.7 245.9925 0)
+    (property "Reference" "N2" (at 393.7 245.9925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "oshw_logo" (id 1) (at 393.7 248.5325 0)
+    (property "Value" "oshw_logo" (at 393.7 248.5325 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "ddr5-testbed-footprints:oshw-logo" (id 2) (at 403.225 258.445 0)
+    (property "Footprint" "ddr5-testbed-footprints:oshw-logo" (at 403.225 258.445 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (id 3) (at 403.225 260.985 0)
+    (property "Datasheet" "" (at 403.225 260.985 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (id 4) (at 403.225 263.525 0)
+    (property "Author" "Antmicro" (at 403.225 263.525 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (id 5) (at 403.225 266.065 0)
+    (property "License" "Apache-2.0" (at 403.225 266.065 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "" (id 6) (at 387.985 248.285 0)
+    (property "MPN" "" (at 387.985 248.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (id 7) (at 403.225 268.605 0)
+    (property "Manufacturer" "" (at 403.225 268.605 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (instances
+      (project "ddr5-testbed"
+        (path "/c2a33bce-bdc8-4704-9f62-b8126cbf5c7c"
+          (reference "N2") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "ddr5-testbed:antmicro_logo") (at 387.985 243.205 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005fff4c1f)
-    (property "Reference" "N1" (id 0) (at 393.7 240.9125 0)
+    (property "Reference" "N1" (at 393.7 240.9125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "antmicro_logo" (id 1) (at 393.7 243.4525 0)
+    (property "Value" "antmicro_logo" (at 393.7 243.4525 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "ddr5-testbed-footprints:antmicro-logo_scaled_20mm" (id 2) (at 403.225 253.365 0)
+    (property "Footprint" "ddr5-testbed-footprints:antmicro-logo_scaled_20mm" (at 403.225 253.365 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (id 3) (at 403.225 255.905 0)
+    (property "Datasheet" "" (at 403.225 255.905 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "" (id 4) (at 387.985 243.205 0)
+    (property "MPN" "" (at 387.985 243.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (id 5) (at 403.225 263.525 0)
+    (property "Manufacturer" "" (at 403.225 263.525 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (id 6) (at 403.225 258.445 0)
+    (property "Author" "Antmicro" (at 403.225 258.445 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (id 7) (at 403.225 260.985 0)
+    (property "License" "Apache-2.0" (at 403.225 260.985 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (instances
+      (project "ddr5-testbed"
+        (path "/c2a33bce-bdc8-4704-9f62-b8126cbf5c7c"
+          (reference "N1") (unit 1)
+        )
+      )
     )
   )
 
   (sheet (at 194.31 140.97) (size 41.91 28.575) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005fdc4a05)
-    (property "Sheet name" "SODIMM" (id 0) (at 194.31 140.2584 0)
+    (property "Sheetname" "SODIMM" (at 194.31 140.2584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "sodim.kicad_sch" (id 1) (at 194.31 170.1296 0)
+    (property "Sheetfile" "sodim.kicad_sch" (at 194.31 170.1296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ddr5-testbed"
+        (path "/c2a33bce-bdc8-4704-9f62-b8126cbf5c7c" (page "3"))
+      )
     )
   )
 
   (sheet (at 254 140.335) (size 41.91 28.575) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005ff943ac)
-    (property "Sheet name" "DDR5" (id 0) (at 254 139.6234 0)
+    (property "Sheetname" "DDR5" (at 254 139.6234 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "ddr5.kicad_sch" (id 1) (at 254 169.4946 0)
+    (property "Sheetfile" "ddr5.kicad_sch" (at 254 169.4946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ddr5-testbed"
+        (path "/c2a33bce-bdc8-4704-9f62-b8126cbf5c7c" (page "4"))
+      )
     )
   )
 
   (sheet (at 136.525 141.605) (size 40.64 27.94) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-0000606db5e6)
-    (property "Sheet name" "EEPROM" (id 0) (at 136.525 140.8934 0)
+    (property "Sheetname" "EEPROM" (at 136.525 140.8934 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "EEPROM.kicad_sch" (id 1) (at 136.525 170.1296 0)
+    (property "Sheetfile" "EEPROM.kicad_sch" (at 136.525 170.1296 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ddr5-testbed"
+        (path "/c2a33bce-bdc8-4704-9f62-b8126cbf5c7c" (page "2"))
+      )
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-0000606db5e6" (page "2"))
-    (path "/00000000-0000-0000-0000-00005fdc4a05" (page "3"))
-    (path "/00000000-0000-0000-0000-00005ff943ac" (page "4"))
-  )
-
-  (symbol_instances
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd86c87"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6af"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe3072e"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8db03"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6d3"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe36b49"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8dd16"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6d9"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe395da"
-      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8df9e"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6df"
-      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe395eb"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd9c658"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6f3"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf21"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf32"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f06c"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0b8f8"
-      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0e05c"
-      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f07d"
-      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f08e"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f09f"
-      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe7a7b6"
-      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd7dcca"
-      (reference "#PWR038") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-0000600cf473"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-00006015ecea"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-0000600f8128"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-00006032ae1d"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000600c5dd3"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606ef635"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606f0d2b"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606f1415"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060714be8"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006071585d"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607159cd"
-      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060715f89"
-      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607170b4"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607431a7"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006074924f"
-      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006075d8b7"
-      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060761493"
-      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000622f7cc8"
-      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd86523"
-      (reference "C1") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6a9"
-      (reference "C2") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe30728"
-      (reference "C3") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8c758"
-      (reference "C4") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6ba"
-      (reference "C5") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe36b43"
-      (reference "C6") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8cf69"
-      (reference "C7") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6c3"
-      (reference "C8") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe395d4"
-      (reference "C9") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd8d1a2"
-      (reference "C10") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6cc"
-      (reference "C11") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe395e5"
-      (reference "C12") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd9c652"
-      (reference "C13") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fdbc6ed"
-      (reference "C14") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf1b"
-      (reference "C15") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5bf2c"
-      (reference "C18") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f066"
-      (reference "C23") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0b8f2"
-      (reference "C24") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe0e056"
-      (reference "C25") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f077"
-      (reference "C26") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f088"
-      (reference "C28") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe5f099"
-      (reference "C30") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fe7a7b0"
-      (reference "C32") (unit 1) (value "C_100n_0201") (footprint "ddr5-testbed-footprints:C_0201")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e315f"
-      (reference "C34") (unit 1) (value "C_4u7_0402") (footprint "ddr5-testbed-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e3d48"
-      (reference "C37") (unit 1) (value "C_4u7_0402") (footprint "ddr5-testbed-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070ea8e"
-      (reference "C38") (unit 1) (value "C_100n_0402") (footprint "ddr5-testbed-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006076148d"
-      (reference "C39") (unit 1) (value "C_100n_0402") (footprint "ddr5-testbed-footprints:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060710469"
-      (reference "D1") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "ddr5-testbed-footprints:LED_0603_1608Metric_G")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607100f6"
-      (reference "D2") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "ddr5-testbed-footprints:LED_0603_1608Metric_G")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070fbc4"
-      (reference "D3") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "ddr5-testbed-footprints:LED_0603_1608Metric_G")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070a035"
-      (reference "D4") (unit 1) (value "LED_G_0603_KP-1608CGCK") (footprint "ddr5-testbed-footprints:LED_0603_1608Metric_G")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000062203dff"
-      (reference "FB1") (unit 1) (value "FB_220Z_1.5A_0805") (footprint "ddr5-testbed-footprints:FB_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000622122ae"
-      (reference "FB2") (unit 1) (value "FB_220Z_1.5A_0805") (footprint "ddr5-testbed-footprints:FB_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00006222c53a"
-      (reference "FB3") (unit 1) (value "FB_220Z_1.5A_0805") (footprint "ddr5-testbed-footprints:FB_0805_2012Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060df635a"
-      (reference "IC1") (unit 1) (value "PCA6408A_TSSOP") (footprint "ddr5-testbed-footprints:TSSOP-16_4.4x5mm_P0.65mm")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e74fc"
-      (reference "IC2") (unit 1) (value "AT24CS01_SOT23") (footprint "ddr5-testbed-footprints:SOT-23-5")
-    )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-0000600ac6a9"
-      (reference "J1") (unit 1) (value "Bus_DDR4_Edge_Conn") (footprint "ddr5-testbed-footprints:Bus_DDR4_Conn_Edge")
-    )
-    (path "/00000000-0000-0000-0000-00005fdc4a05/00000000-0000-0000-0000-0000600b3548"
-      (reference "J1") (unit 2) (value "Bus_DDR4_Edge_Conn") (footprint "ddr5-testbed-footprints:Bus_DDR4_Conn_Edge")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006071b1e8"
-      (reference "L1") (unit 1) (value "L_2.2u_1.5A_0806") (footprint "ddr5-testbed-footprints:L_0806_2016Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fff4c1f"
-      (reference "N1") (unit 1) (value "antmicro_logo") (footprint "ddr5-testbed-footprints:antmicro-logo_scaled_20mm")
-    )
-    (path "/00000000-0000-0000-0000-00005fff48fb"
-      (reference "N2") (unit 1) (value "oshw_logo") (footprint "ddr5-testbed-footprints:oshw-logo")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000624d8485"
-      (reference "R1") (unit 1) (value "R_1k_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd86989"
-      (reference "R2") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00005fd7bafa"
-      (reference "R3") (unit 1) (value "R_10k_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000062d36234"
-      (reference "R4") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000624da599"
-      (reference "R5") (unit 1) (value "R_1k_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00006254452d"
-      (reference "R6") (unit 1) (value "R_240R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000600be0df"
-      (reference "R7") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606e94d2"
-      (reference "R8") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060702673"
-      (reference "R9") (unit 1) (value "R_220R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070848e"
-      (reference "R10") (unit 1) (value "R_220R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607094fc"
-      (reference "R11") (unit 1) (value "R_220R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006070a03e"
-      (reference "R12") (unit 1) (value "R_220R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000606fe40c"
-      (reference "R13") (unit 1) (value "R_10k_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060737087"
-      (reference "R14") (unit 1) (value "R_10k_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000062d395dd"
-      (reference "R15") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000062d395d4"
-      (reference "R16") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000062d3622b"
-      (reference "R17") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-000062800405"
-      (reference "R18") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-0000628003fc"
-      (reference "R19") (unit 1) (value "R_0R_0402") (footprint "ddr5-testbed-footprints:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060767927"
-      (reference "TP1") (unit 1) (value "TP_1mm_SMD") (footprint "ddr5-testbed-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-000060765b95"
-      (reference "TP2") (unit 1) (value "TP_1mm_SMD") (footprint "ddr5-testbed-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-0000607450bc"
-      (reference "TP3") (unit 1) (value "TP_1mm_SMD") (footprint "ddr5-testbed-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-00005ff943ac/00000000-0000-0000-0000-00006220e466"
-      (reference "U1") (unit 1) (value "MT60B2G8HB-48B_A") (footprint "ddr5-testbed-footprints:BGA-82_11x9mm_Layout13x11_P0.8mm_DDR5_MO-210-AN")
-    )
-    (path "/00000000-0000-0000-0000-0000606db5e6/00000000-0000-0000-0000-00006071b97c"
-      (reference "U2") (unit 1) (value "TPS613221A_SOT-23-5") (footprint "ddr5-testbed-footprints:SOT-23-5")
-    )
   )
 )
