@@ -7,7 +7,7 @@
   (title_block
     (title "DDR5 testbed")
     (date "2023-01-13")
-    (rev "1.1.1:8e7fe")
+    (rev "1.1.1:9a23b")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -44,7 +44,6 @@
         )
       )
     )
-
     (symbol "antmicroMechanicalParts:oshw_logo" (in_bom yes) (on_board yes)
       (property "Reference" "N" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -77,6 +76,7 @@
       )
     )
   )
+
 
   (image (at 66.675 264.795) (scale 0.4)
     (uuid ad7ed27e-2314-41dc-b7e6-43afe5264be3)
