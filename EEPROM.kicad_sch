@@ -6,8 +6,8 @@
 
   (title_block
     (title "DDR5 testbed")
-    (date "2023-01-13")
-    (rev "1.1.1:9a23b")
+    (date "2024-05-27")
+    (rev "1.1.2")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )

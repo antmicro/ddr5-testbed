@@ -6,8 +6,8 @@
 
   (title_block
     (title "DDR5 testbed")
-    (date "2023-01-13")
-    (rev "1.1.1:9a23b")
+    (date "2024-05-27")
+    (rev "1.1.2")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -12826,7 +12826,7 @@
     (property "Value" "antmicro_logo" (at 393.7 243.4525 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:antmicro-logo" (at 403.225 253.365 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm" (at 403.225 253.365 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 403.225 255.905 0)
