@@ -1,11 +1,11 @@
 {
     "id": "ddr5-testbed",
     "componentIds": [
-        "yaego-cc0201krx6s5bb104",
+        "yageo-cc0201krx6s5bb104",
         "murata-grm155r61a475meaad",
         "murata-grm155r61h104ke14d",
         "kingbright-kp-1608cgck",
-        "wurth-electronic-742792022",
+        "wurth-elektronik-742792022",
         "nxp-pca6408apw",
         "atmel-at24cs01-st",
         "murata-1285as-h-2r2m-p2",
@@ -14,7 +14,7 @@
         "bourns-cr0402-fx-1002glf",
         "bourns-cr0402-fx-2400glf",
         "bourns-cr0402-fx-2200glf",
-        "micron-mt60b2g8hb-48b-a",
+        "micron-technology-mt60b2g8hb-48b-a",
         "texas-instruments-tps613221adbvt"
     ],
     "stackup": {
